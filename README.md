@@ -14,14 +14,19 @@ A minimalist and functional To-Do List application built with vanilla web techno
 - **JavaScript (ES6)**: Task management logic and DOM manipulation.
 
 
+## Preview
+
+
+
+https://github.com/user-attachments/assets/a5d2e2c8-202b-4db4-9827-8c496e51bd4e
+
+
 
 ## 📂 Project Structure
 ```text
 ├── index.html    # Main structure
 ├── style.css     # UI styling
 └── script.js     # App logic
-
-
 
 
 
