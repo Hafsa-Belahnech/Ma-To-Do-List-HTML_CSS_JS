@@ -1,0 +1,109 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #9b66d3 0%, #6b8fce 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#taskInput:focus {
+  outline: none;
+  border-color: #360564;
+}
+
+#addBtn {
+  padding: 12px 20px;
+  background: #af9ac6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+#addBtn:hover {
+  background: #2c0a56;
+}
+
+#taskList {
+  list-style: none;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 20px solid #af9ac6;
+  transition: all 0.3s;
+}
+
+#taskList li.completed {
+  border-left-color: #0e9f4b;
+  opacity: 0.8;
+}
+
+#taskList li.completed span {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+#taskList li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+#taskList li button {
+  background: #e10404fc;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#taskList li button:hover {
+  background: #ab0404;
+}
